@@ -1,0 +1,59 @@
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 125px;
+}
+
+body {
+  width: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-attachment: fixed;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+.movie {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  max-width: 100%;
+  margin: 20px;
+  overflow: hidden;
+  width: 500px;
+}
+
+.movie h6 {
+  opacity: 0.6;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.movie h2 {
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+
+.movie-preview {
+  color: #fff;
+  /* padding: 5px; */
+  margin-bottom: -3px;
+  max-width: 250px;
+}
+
+.movie-info {
+  padding: 30px;
+  position: relative;
+  width: 100%;
+}
+
+.title {
+  color: white;
+}
+.movie-info {
+  float: left;
+}

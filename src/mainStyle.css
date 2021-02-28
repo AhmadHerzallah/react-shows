@@ -1,0 +1,40 @@
+.home__Page {
+  color: white;
+}
+
+/* ::selection { */
+/* background: #ca9ce1;
+   */
+/* } */
+
+::selection {
+  color: #000;
+  background-color: rgba(157, 134, 233, 0.99);
+}
+
+/* 
+.home__Page:after {
+  content: attr(data-content);
+  position: absolute;
+  color: #000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(#fff, #fff) top/100% 50% no-repeat;
+} */
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.react-read-more-read-less {
+  color: #3423a6;
+}
+
+.react-read-more-read-less-more {
+  color: #3423a6;
+}
