@@ -20,6 +20,7 @@
     "react-scripts": "4.0.3",
     "react-show-more-text": "^1.4.6",
     "read-more-react": "^1.0.10",
+    "readme-md-generator": "^1.0.0",
     "unogs": "^0.0.2",
     "web-vitals": "^1.0.1"
   },
