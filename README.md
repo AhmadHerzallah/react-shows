@@ -14,6 +14,7 @@
 ## Bugs to fix:
 
 - [ ] showing empty cards while receiving missing nor empty data.
+- [ ] showing page not found in firebase while using dynamic route in react. 
 
 ## 🤝 Contributing
 
