@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactReadMoreReadLess from 'react-read-more-read-less';
 
-const ShowMovie = ({ name, image, overview, id }) => {
-  console.log(name, image, overview, id);
+const ShowMovie = ({ name, image, overview, id, type }) => {
+  console.log(name, type);
   return (
     <div class="movies-container">
       <div class="movie">
@@ -15,7 +15,9 @@ const ShowMovie = ({ name, image, overview, id }) => {
         </div>
         <div class="movie-info">
           <h2 className="movieName">
-            <a href={`/MovieSearch/${id}`}>{name}</a>
+            <a href={`/MovieSearch/${id}`} type={type}>
+              {name}
+            </a>
           </h2>
           {/* <p>{overview}</p> */}
           {!!overview && (

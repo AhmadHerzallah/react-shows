@@ -11,6 +11,7 @@ const MovieSearch = () => {
   useEffect(() => {
     fetchSearch();
   }, [query]);
+
   const updateSearch = (e) => {
     setSearch(e.target.value);
   };
@@ -25,6 +26,7 @@ const MovieSearch = () => {
     const data = await response.json();
     setAllMovies(data.results);
   };
+  // console.log(allMovies);
   console.log(allMovies);
   return (
     <div>
@@ -57,6 +59,7 @@ const MovieSearch = () => {
                 image={movie.poster_path}
                 overview={movie.overview}
                 id={movie.id}
+                type={movie.media_type}
               />
             ))
           : null}

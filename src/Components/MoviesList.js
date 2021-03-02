@@ -16,6 +16,7 @@ const MoviesList = () => {
     const data = await response.json();
     setMovies(data.results);
   };
+  console.log(movies);
 
   return (
     <div>
@@ -38,6 +39,8 @@ const MoviesList = () => {
               }
               image={movie.poster_path}
               overview={movie.overview}
+              id={movie.id}
+              type={movie.media_type}
             />
           </div>
         ))}

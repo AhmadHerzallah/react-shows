@@ -1,0 +1,32 @@
+/* .movieImageWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+} */
+
+.movieImageWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: auto;
+  align-content: start;
+}
+.movieImageWrapper:after {
+  display: block;
+  margin: 10px;
+  flex: 999 999 auto;
+}
+.movieImage {
+  border-radius: 5px;
+  transition: 500ms all;
+  margin: auto;
+  align-self: auto;
+  flex: 0 0 auto;
+  margin: 10px;
+}
+
+.movieImage:hover {
+  opacity: 0.5;
+  transition: 500ms all;
+}

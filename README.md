@@ -1,6 +1,6 @@
 # Welcome to react-shows 👋
 
-![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/version-0.1.1-blue.svg?cacheSeconds=2592000)
 [![Twitter: itsahmd25](https://img.shields.io/twitter/follow/itsahmd25.svg?style=social)](https://twitter.com/itsahmd25)
 
 > Website to show top-rated movies and to search about movie / tv show to get more details about it.
